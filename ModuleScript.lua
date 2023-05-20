@@ -40,7 +40,7 @@ local ObjectPropertyChangeRequestEvent = RemoteEvents.ObjectPropertyChangeReques
 local CheckpointEvent = RemoteEvents.ChangeHistoryInteractionRequested
 
 local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, FartSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/UI.lua"))()()
-local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloofyPlasma/RetroStudio-Auto-Build/main/Properties.lua"))()
+local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/Properties.lua"))()
 
 local CreatedInstances = 0
 
