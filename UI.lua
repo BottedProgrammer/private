@@ -14,7 +14,7 @@ local AssetID = Instance.new("TextBox")
 local UICorner_3 = Instance.new("UICorner")
 local ModelName = Instance.new("TextBox")
 local UICorner_4 = Instance.new("UICorner")
-local FartSound = Instance.new('Sound')
+local CompletedSound = Instance.new('Sound')
 
 --Properties:
 
@@ -91,10 +91,11 @@ ModelName.TextSize = 14.000
 
 UICorner_4.Parent = ModelName
 
-FartSound.Name = "FartSound"
-FartSound.Parent = CoreGui
-FartSound.Volume = (math.random(1, 10)/math.random(1, 10))
+CompletedSound.Name = "CompletedSound"
+CompletedSound.Parent = CoreGui
+CompletedSound.Volume = 1
+CompletedSound.SoundId = "rbxassetid://5035412139"
 
 return function()
-	return AutoBuildGui, MainFrame, Title, AssetID, ModelName, StartButton, FartSound
+	return AutoBuildGui, MainFrame, Title, AssetID, ModelName, StartButton, CompletedSound
 end
