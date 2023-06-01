@@ -421,6 +421,7 @@ local Properties = {
 		"AlwaysOnTop",
 		"CanvasSize",
 		"Enabled",
+		"Name",
 		"Face"
 		}
 	}
