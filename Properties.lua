@@ -418,10 +418,7 @@ local Properties = {
 		"TextYAlignment"
 	},
 	["SurfaceGui"] = { 
-		"AlwaysOnTop",
-		"CanvasSize",
-		"Enabled",
-		"Face"
+		"AlwaysOnTop", "CanvasSize", "Enabled", "Face"
 	}
 }
 }
