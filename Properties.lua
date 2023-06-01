@@ -416,9 +416,7 @@ local Properties = {
 		"TextWrapped",
 		"TextXAlignment",
 		"TextYAlignment"
-	},
-	["SurfaceGui"] = { 
-		"AlwaysOnTop", "CanvasSize", "Enabled", "Face"
+	}
 	}
 }
 }
