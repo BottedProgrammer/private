@@ -418,9 +418,6 @@ local Properties = {
 		"TextYAlignment"
 	}
 	}
-}
-}
-}
 
 Properties.WedgePart = Properties.BasePart
 Properties.Part = Properties.BasePart
