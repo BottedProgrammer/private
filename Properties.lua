@@ -447,7 +447,7 @@ local Properties = {
 		"BackSurface",
 		"BottomSurface",
 		"FrontSurface",
-		"LeftSurface".
+		"LeftSurface",
 		"RightSurface",
 		"TopSurface"
 		}
