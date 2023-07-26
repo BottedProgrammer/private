@@ -423,6 +423,33 @@ local Properties = {
 		"Enabled",
 		"Name",
 		"Face"
+		},
+	["VehicleSeat"] = {
+		"BrickColor",
+		"Material",
+		"Reflectance",
+		"Transparency",
+		"Name",
+		"Orientation",
+		"Position",
+		"Velocity",
+		"Anchored",
+		"CanCollide",
+		"Locked",
+		"Disabled",
+		"HeadsUpDisplay",
+		"MaxSpeed",
+		"Steer",
+		"Throttle",
+		"Torque",
+		"TurnSpeed",
+		"Size",
+		"BackSurface",
+		"BottomSurface",
+		"FrontSurface",
+		"LeftSurface".
+		"RightSurface",
+		"TopSurface"
 		}
 	}
 
@@ -432,7 +459,6 @@ Properties.CornerWedgePart = Properties.BasePart
 
 Properties.Seat = Properties.BasePart
 Properties.Truss = Properties.BasePart
-Properties.VehicleSeat = Properties.BasePart
 Properties.SpawnLocation = Properties.BasePart
 Properties.CylinderMesh = Properties.Mesh
 Properties.BlockMesh = Properties.Mesh
