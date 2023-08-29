@@ -19,7 +19,7 @@ do
     end
 end
 
-warn('\n\n\n\n\nThanks for using RetroStudio Auto Build by discord.gg/FloofyPlasma! \n\n\nPress the insert key to toggle the ui.')
+warn('\n\n\n\n\nThanks for using RetroStudio Auto Build!')
 
 local RemoteFunctions = ReplicatedStorage.RemoteFunctions
 local RemoteEvents = ReplicatedStorage.RemoteEvents
@@ -28,8 +28,8 @@ local CreateObjectEvent = RemoteFunctions.CreateObject
 local ObjectPropertyChangeRequestEvent = RemoteFunctions.ChangeObjectPropertyAndReturn
 local CheckpointEvent = RemoteEvents.ChangeHistoryInteractionRequested
 
-local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/UI.lua"))()()
-local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/Properties.lua"))()
+local AutoBuildGui, MainFrame, TitleLabel, ModelBox, NameBox, StartButton, CompletedSound = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/private/main/UI.lua"))()()
+local Properties = loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/private/main/Properties.lua"))()
 local HashLib = require(ReplicatedStorage:WaitForChild('HashLib'))
 
 local CreatedInstances = 0
