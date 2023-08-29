@@ -2,5 +2,5 @@
 
 Script:
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/RetroStudio-Auto-Build-Backup/main/ModuleScript.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BottedProgrammer/private/main/ModuleScript.lua"))()
 
