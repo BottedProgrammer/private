@@ -37,7 +37,7 @@ local CreatedInstances = 0
 -- Função Hash modificada conforme solicitado anteriormente
 local function Hash()
     local Time = os.time()
-    local str = ("%*\224\182\158"):format(Time)
+    local str = ("\224\182\158%*\224\182\158"):format(Time)
     print(Time)
     print(str)
     local newHash = HashLib.md5(str)
