@@ -450,6 +450,20 @@ local Properties = {
 		"LeftSurface",
 		"RightSurface",
 		"TopSurface"
+		},
+	["ParticleEmitter"] = {
+		"LightEmission",
+		"Texture",
+		"ZOffset",
+		"Name",
+		"Acceleration",
+		"Enabled",
+		"LifeTime",
+		"Rate",
+		"RotSpeed",
+		"Rotation",
+		"Speed",
+		"SpeedAngle"
 		}
 	}
 
