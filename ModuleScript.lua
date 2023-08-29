@@ -38,8 +38,6 @@ local CreatedInstances = 0
 local function Hash()
     local Time = os.time()
     local str = ("\224\182\158%*\224\182\158"):format(Time)
-    print(Time)
-    print(str)
     local newHash = HashLib.md5(str)
     wait(1)
     return newHash
