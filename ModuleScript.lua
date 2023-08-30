@@ -19,7 +19,7 @@ do
     end
 end
 
-warn('\n\n\n\n\nThanks for using RetroStudio Auto Build!')
+warn('\n\n\n\n\nThanks for using RetroStudio Auto Build made originally by Floofyplasma!')
 
 local RemoteFunctions = ReplicatedStorage.RemoteFunctions
 local RemoteEvents = ReplicatedStorage.RemoteEvents
