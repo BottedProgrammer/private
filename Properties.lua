@@ -472,7 +472,7 @@ Properties.Part = Properties.BasePart
 Properties.CornerWedgePart = Properties.BasePart
 
 Properties.Seat = Properties.BasePart
-Properties.Truss = Properties.BasePart
+Properties.TrussPart = Properties.BasePart
 Properties.SpawnLocation = Properties.BasePart
 Properties.CylinderMesh = Properties.Mesh
 Properties.BlockMesh = Properties.Mesh
