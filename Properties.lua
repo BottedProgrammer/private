@@ -463,7 +463,7 @@ local Properties = {
 		"RotSpeed",
 		"Rotation",
 		"Speed",
-		"SpeedAngle"
+		"SpreadAngle"
 		}
 	}
 
