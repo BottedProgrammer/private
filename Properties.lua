@@ -458,7 +458,7 @@ local Properties = {
 		"Name",
 		"Acceleration",
 		"Enabled",
-		"LifeTime",
+		"Lifetime",
 		"Rate",
 		"RotSpeed",
 		"Rotation",
