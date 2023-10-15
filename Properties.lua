@@ -464,7 +464,13 @@ local Properties = {
 		"Rotation",
 		"Speed",
 		"SpreadAngle"
-		}
+		},
+	["RemoteEvent"] = {
+		"Name"
+	   },
+	["RemoteFunction"] = {
+		"Name"
+	   }
 	}
 
 Properties.WedgePart = Properties.BasePart
