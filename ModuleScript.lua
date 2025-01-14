@@ -21,8 +21,8 @@ end
 
 warn('\n\n\n\n\nThanks for using RetroStudio Auto Build made originally by Floofyplasma!')
 
-local RemoteFunctions = ReplicatedStorage.RemoteFunctions
-local RemoteEvents = ReplicatedStorage.RemoteEvents
+local RemoteFunctions = ReplicatedStorage.Remotes
+local RemoteEvents = ReplicatedStorage.Remotes
 
 local CreateObjectEvent = RemoteFunctions.CreateObject
 local ObjectPropertyChangeRequestEvent = RemoteFunctions.ChangeObjectPropertyAndReturn
